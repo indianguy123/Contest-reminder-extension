@@ -1,0 +1,67 @@
+body {
+  min-width: 300px;
+  background-color: black;
+  color: white;
+  max-height: 300px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  text-align: center;
+}
+
+.contests {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 1em;
+  /* width: 100%; */
+}
+
+.contest {
+  width: 100%;
+  background-color: rgb(31, 31, 31);
+  margin: 0.5em 0.5em;
+  padding: 0.5em;
+  border-radius: 5px;
+  /* border: 1px solid white; */
+}
+
+.site {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.3em;
+}
+
+.bold {
+  font-weight: 500;
+}
+
+.url {
+  color: greenyellow;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: greenyellow;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
